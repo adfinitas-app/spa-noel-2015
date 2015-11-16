@@ -429,12 +429,12 @@ header .scroll-down {
 }
 
 #grille-don a.bouton-don-a {
-    color: #ea6620;
+    color: #fff;
     display: inline-block;
     margin: 0 auto;
 }
 #grille-don a.bouton-don-a:hover {
-    color: #fff;
+    color: #ea6620;
 }
 #grille-don .bouton-don {
     background: url('../img/bouton-plein-don.png') no-repeat 0 0;
