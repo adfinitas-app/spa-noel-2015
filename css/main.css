@@ -272,19 +272,19 @@ header .besoin-titre {
 #diapo0 {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    background:#000 url('../img/diapo1.png') no-repeat center center;
+    background: url('../img/diapo1.png') no-repeat center center;
     height: 467px;
 }
 #diapo1 {
-    background:#000 url('../img/diapo2.png') no-repeat center center;
+    background: url('../img/diapo2.png') no-repeat center center;
     height: 467px;
 }
 #diapo2 {
-    background:#000 url('../img/diapo3.png') no-repeat center center;
+    background: url('../img/diapo3.png') no-repeat center center;
     height: 467px;
 }
 #diapo3 {
-    background:#000 url('../img/diapo4.png') no-repeat center center;
+    background: url('../img/diapo4.png') no-repeat center center;
     height: 467px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
