@@ -164,12 +164,11 @@ header .besoin-titre {
     background: rgba(255,255,255,0.5);
 }
 #presentation p{
-    padding: 140px 0;
+    padding: 75px 0;
     color: #583c1f;
     font-weight: 700;
     font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
-
 
 #video {
     
