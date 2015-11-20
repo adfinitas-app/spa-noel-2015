@@ -4,11 +4,19 @@ $(document).ready(function(){
     });
     _onResize();
     
+    
     function _onResize(){
-        var stageWidth = $(window).width();
-        var stageHeight = $(window).height();
-        var h = $(".img-header").height();
-        if (stageWidth > 639) {
+    var stageWidth = $(window).width();
+    var stageHeight = $(window).height();
+    var h = $(".img-header").height();
+    var ratio = 608 / 1400;
+    
+    if( h == 0 ) {
+        h = stageWidth*ratio;
+    }
+        
+        
+    if (stageWidth > 639) {
             $(".contenu-header").height(h);
         } else {
             $(".contenu-header").height(stageHeight);
