@@ -1,7 +1,10 @@
 var     urlBySegment = {
             segments:   _SEGMENTS,
 
-            getUrl: function(mySegment, segAmount) {
+            getUrl: function(mySegment, segAmount, module) {
+                if (module == "CTA") {
+                    this.segments = dataCTA.SEGMENTS;
+                }
                 var segment = this.segments[mySegment];
                 //console.log(segment);
                 var url = "";
