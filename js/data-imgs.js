@@ -1,5 +1,5 @@
 // --> Config générale
-var     _IRAISER_CID    =   72,
+var     _IRAISER_CID    =   26,
         _IRAISER_URL    =   'don.spa.asso.fr';
 
 // - Ajout des CTA avec action éclaté pour WoopraTrack
@@ -13,14 +13,14 @@ var     _FISCAL_RULES      =   {percentplafond: 75, percentreste: 66, plafond: 5
 var     _HTML_BUILD     =   {
     'OPTIN':   [
         {   amount: 56,
-            image:  'http://sosabandon.spa.asso.fr/img/chien.png',
-            text:   'Pour nourrir 2 chiens pendant 2 mois.' },
+            image:  'img/image-montant6.png',
+            text:   'Pour stériliser <br>1 chat.<br />&nbsp;' },
         {   amount: 75,
-            image:  'http://sosabandon.spa.asso.fr/img/chat.png',
-            text:   'Pour stériliser et identifier un chat.' },
+            image:  'img/image-montant8.png',
+            text:   'Pour nourrir et soigner<br /> 2 chats et nourrir 1 chien pendant 1 mois.' },
         {   amount: 256,
-            image:  'http://sosabandon.spa.asso.fr/img/chienchat.png',
-            text:   'Pour nourrir et soigner un chien et un chat pendant 4 mois.', },
+            image:  'img/image-montant9.png',
+            text:   'Pour mettre en place<br /> des actions contre la maltraitance.', },
     ],
     'ADHERENT':  [
         {   amount: 56,
