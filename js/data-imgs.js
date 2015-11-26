@@ -8,7 +8,7 @@ var     _WOOPRA_INTERACTION     =   ['don-IMG', '_ete2015'];
 
 // - Ajout des paramètres fiscaux
 var     _FISCAL_PHRASE     =   'Soit <span class="deduction">{{XX}}€</span> après déduction fiscale';
-var     _FISCAL_RULES      =   {percentplafond: 75, percentreste: 66, plafond: 529, ISF: 0};
+var     _FISCAL_RULES      =   {percentplafond: 66, percentreste: 66, plafond: 529, ISF: 0};
 
 var     _HTML_BUILD     =   {
     'OPTIN':   [
@@ -69,9 +69,9 @@ var     _HTML_BUILD     =   {
 };
 
 var _SEGMENTS = {
-    'OPTIN':    {'arrondiSup':0, 'type': 'addition', 'values':[0,2,5], 'defisc':'IR', iraiser_params: {'cid':55, 'reserved_origine':'toto', 'code_campagne':'TK534'}} ,
-    'ADHERENT': {'arrondiSup':5, 'type': 'addition', 'values':[0,5,10], 'defisc':'IR', iraiser_params: {'cid':55, 'reserved_origine':'toto', 'code_campagne':'TK534'}} ,
-    'DONATEUR': {'arrondiSup':5, 'type': 'percent',  'values':[0,25,50], 'defisc':'IR', iraiser_params: {'cid':55, 'reserved_origine':'toto', 'code_campagne':'TK534'}} ,
-    'MIDDLE':   {'arrondiSup':5, 'type': 'addition', 'values':[0,25,100], 'defisc':'IR', iraiser_params: {'cid':55, 'reserved_origine':'toto', 'code_campagne':'TK534'}} ,
-    'GD':       {'arrondiSup':0, 'type': 'libre', 'defisc':'ISF', iraiser_params: {'cid':55, 'reserved_origine':'toto', 'code_campagne':'TK534'}}
+    'OPTIN':    {'arrondiSup':0, 'type': 'addition', 'values':[0,2,5], 'defisc':'IR'} ,
+    'ADHERENT': {'arrondiSup':5, 'type': 'addition', 'values':[0,5,10], 'defisc':'IR'} ,
+    'DONATEUR': {'arrondiSup':5, 'type': 'percent',  'values':[0,25,50], 'defisc':'IR'} ,
+    'MIDDLE':   {'arrondiSup':5, 'type': 'addition', 'values':[0,25,100], 'defisc':'IR'} ,
+    'GD':       {'arrondiSup':0, 'type': 'libre', 'defisc':'ISF'}
 };
