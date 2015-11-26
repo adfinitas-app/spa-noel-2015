@@ -12,7 +12,7 @@ var     _FISCAL_RULES      =   {percentplafond: 66, percentreste: 66, plafond: 5
 
 var     _HTML_BUILD     =   {
     'OPTIN':   [
-        {   amount: 56,
+        {   amount: 45,
             image:  'img/image-montant6.png',
             text:   'Pour stériliser <br>1 chat.<br />&nbsp;' },
         {   amount: 75,
