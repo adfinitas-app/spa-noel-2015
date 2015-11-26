@@ -278,29 +278,43 @@ le mettait au supplice lorsque nous l'avons recueilli dans notre refuge de Vaux-
     <section id="grille-don">
         <div class="row">
             <h2>offrez-leur le plus chaleureux des Noël</h2>
+            <div class="static">
             <div id="montant1" class="montant large-4 medium-4 small-12 columns">
                 <h3>JE DONNE 45 €</h3>
                 <div class="img-center"><a href="https://don.spa.asso.fr/b?cid=26&amount=45000"><img src="img/image-montant6.png" alt="" /></a></div>
                 <p class="desc">Pour stériliser <br>1 chat.<br />&nbsp;</p>
-                <a class="adFcta" href="https://don.spa.asso.fr/b?cid=26&amount=4500" data-module="form" data-cta="6"><div class="bouton-montant img-center"><img src="img/bouton-don.png" alt="" /></div></a>
+                <a class="" href="https://don.spa.asso.fr/b?cid=26&amount=4500" data-module="form" data-cta="6"><div class="bouton-montant img-center"><img src="img/bouton-don.png" alt="" /></div></a>
                 <p class="deduction">soit 16 € après déduction fiscale</p>
             </div>
             <div id="montant2" class="montant large-4 medium-4 small-12 columns">
                  <h3>JE DONNE 75 €</h3>
                 <div class="img-center"><a href="https://don.spa.asso.fr/b?cid=26&amount=7500"><img src="img/image-montant8.png" alt="" /></a></div>
                 <p class="desc">Pour nourrir et soigner<br> 2 chats et nourrir 1 chien pendant 1 mois.</p>
-                <a class="adFcta" href="https://don.spa.asso.fr/b?cid=26&amount=7500" data-module="form" data-cta="7"><div class="bouton-montant img-center"><img src="img/bouton-don.png" alt="" /></div></a>
+                <a class="" href="https://don.spa.asso.fr/b?cid=26&amount=7500" data-module="form" data-cta="7"><div class="bouton-montant img-center"><img src="img/bouton-don.png" alt="" /></div></a>
                 <p class="deduction">soit 26 € après déduction fiscale</p>
             </div>
             <div id="montant3" class="montant large-4 medium-4 small-12 columns">
                  <h3>JE DONNE 95 €</h3>
                 <div class="img-center"><a href="https://don.spa.asso.fr/b?cid=26&amount=9500"><img src="img/image-montant9.png" alt="" /></a></div>
                 <p class="desc">Pour mettre en place<br /> des actions contre la maltraitance.</p>
-                <a class="adFcta" href="https://don.spa.asso.fr/b?cid=26&amount=9500" data-module="form" data-cta="8"><div class="bouton-montant img-center"><img src="img/bouton-don.png" alt="" /></div></a>
+                <a class="" href="https://don.spa.asso.fr/b?cid=26&amount=9500" data-module="form" data-cta="8"><div class="bouton-montant img-center"><img src="img/bouton-don.png" alt="" /></div></a>
                 <p class="deduction">soit 32 € après déduction fiscale</p>
             </div>
-            
-        </div>
+            </div>
+           <div id="don-parent">
+                <div class="adFclone" style="display: none;">
+                    <!-- IMAGE SEULE -->
+                    <div class="montant large-4 medium-4 small-12 columns adFwrapper {{CLASS}}" id="{{ID}}">
+                        <h3>JE DONNE {{AMOUNT}} €</h3>
+                        <a href="{{LINK}}" class="adFlinkimgs" title="Don"><img class="adFimg-illus img-center" data-src="{{IMGILLUS}}"></a>
+                        <p class="adFtext-don desc"><a href="{{LINK}}" class="adFlinkeqdon" title="Don">{{TEXT}}</a></p>
+                        <a class="adFdon-prix adFlinkimgs" href="{{LINK}}" title="Don"><div class="bouton-montant img-center"><img src="img/bouton-don.png" alt="" /></div></a>
+                        <p class="adFtext-deduction">{{DEDUCTION}}</p>
+                    </div>
+                    <!-- END :IMAGE SEULE -->
+                </div>
+         </div>
+         </div>
         <div class="row text-center">
             <a href="https://don.spa.asso.fr/b?cid=26" class="bouton-don-a">
                 <div class="bouton-don"><span>je donne un autre montant</span></div>
@@ -430,6 +444,7 @@ le mettait au supplice lorsque nous l'avons recueilli dans notre refuge de Vaux-
     <script src="js/foundation.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/data-cta.js"></script>
+    <script src="js/data-imgs.js"></script>
     <script src="js/grille-gridtools.js"></script>
     <script src="js/grille-recupurl.js"></script>
     <script src="js/grilledyn-cta.js"></script>
