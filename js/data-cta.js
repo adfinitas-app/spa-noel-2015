@@ -1,3 +1,4 @@
+/*
 // --> Config générale
 var     _IRAISER_CID    =   26,
         _IRAISER_URL    =   'don.spa.asso.fr';
@@ -12,7 +13,7 @@ var _SEGMENTS = {
     'MIDDLE':   {'arrondiSup':5, 'type': 'addition', 'values':[0,25,100]},
     'GD':       {'arrondiSup':0, 'type': 'libre'}
 };
-/*
+*/
 // --> Config générale
 var     _IRAISER_CID    =   26,
         _IRAISER_URL    =   'don.spa.asso.fr';
@@ -27,4 +28,3 @@ var _SEGMENTS = {
     'MIDDLE':   {'arrondiSup':5, 'type': 'percent', 'values':[0,25,50]} ,
     'GD':       {'arrondiSup':0, 'type': 'libre'}
 };
-*/
