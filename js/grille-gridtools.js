@@ -9,7 +9,7 @@ var     urlBySegment = {
                     this.segments = dataCTA.SEGMENTS;
                 }
                 var segment = this.segments[mySegment];
-                //console.log(segment);
+                console.log("segment = " + JSON.stringify(segment));
                 var url = "";
                 var frontURL = "";
                 var montants = [];
