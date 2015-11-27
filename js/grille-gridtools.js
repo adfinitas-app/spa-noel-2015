@@ -5,6 +5,7 @@ var     urlBySegment = {
                 console.log("module");
                 if (module == "CTA") {
                     console.log("CTA OK");
+                    console.log(JSON.stringify(dataCTA[mySegment]));
                     this.segments = dataCTA.SEGMENTS;
                 }
                 var segment = this.segments[mySegment];
