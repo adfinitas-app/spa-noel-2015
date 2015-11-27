@@ -50,6 +50,7 @@ var ctaGrid    =   {
         },
         // Création fenetre
         newWindow: function(url) {
+            console.log("URL : ", url);
             var win = window.open(url, '_blank');
             win.focus();
             return false;
