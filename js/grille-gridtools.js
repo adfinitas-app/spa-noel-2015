@@ -2,7 +2,7 @@ var     urlBySegment = {
             segments:   _SEGMENTS,
 
             getUrl: function(mySegment, segAmount, module) {
-                console.log("In urlBySegment.getUrl");
+                //console.log("In urlBySegment.getUrl");
                 if (module == "CTA") {
                     /*
                     console.log("CTA fix");
