@@ -6,7 +6,7 @@ var ctaGrid    =   {
 
     affichage:  function(myDebug, myAmount, mySegment, jQ) {
         jQ('.adFcta').each(function () {
-            var Link = 'https://' + dataCTA.IRAISER_URL + '/b?cid=' + dataCTA.IRAISER_CID + urlBySegment.getUrl(mySegment, myAmount);
+            var Link = 'https://' + dataCTA.IRAISER_URL + '/b?cid=' + dataCTA.IRAISER_CID + urlBySegment.getUrl(mySegment, myAmount, "CTA");
             ctaGrid.woopracta(myDebug, Link, jQ(this));
         });
     },
@@ -33,8 +33,9 @@ var ctaGrid    =   {
 
         buildAll:   function(myDebug, myAmount, mySegment, jQ) {
             console.log("segment : " + dataCTA.SEGMENTS[mySegment]);
-            console.log("segment : " + dataCTA.WOOPRA_INTERACTION);
-            console.log("segment : " + dataCTA.IRAISER_CID);
+            console.log("woopra_interaction : " + dataCTA.WOOPRA_INTERACTION);
+            console.log("iraiser_cid : " + dataCTA.IRAISER_CID);
+            console.log("segment infos : " + JSON.Stringify(dataCTA.SEGMENTS[mySegment]));
             this.segmentRetenu = (dataCTA.SEGMENTS[mySegment] !== undefined) ? mySegment : this.segmentRetenu;
             //this.htmlRetenu = (this.htmlBuild[mySegment] !== undefined) ? this.htmlBuild[mySegment] : this.htmlBuild[this.segmentRetenu];
             this.affichage(myDebug, myAmount, this.segmentRetenu, jQ);
