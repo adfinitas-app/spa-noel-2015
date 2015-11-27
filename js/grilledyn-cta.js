@@ -35,7 +35,7 @@ var ctaGrid    =   {
             console.log("segment : " + dataCTA.SEGMENTS[mySegment]);
             console.log("woopra_interaction : " + dataCTA.WOOPRA_INTERACTION);
             console.log("iraiser_cid : " + dataCTA.IRAISER_CID);
-            console.log("segment infos : " + JSON.Stringify(dataCTA.SEGMENTS[mySegment]));
+            console.log("segment infos : " + JSON.stringify(dataCTA.SEGMENTS[mySegment]));
             this.segmentRetenu = (dataCTA.SEGMENTS[mySegment] !== undefined) ? mySegment : this.segmentRetenu;
             //this.htmlRetenu = (this.htmlBuild[mySegment] !== undefined) ? this.htmlBuild[mySegment] : this.htmlBuild[this.segmentRetenu];
             this.affichage(myDebug, myAmount, this.segmentRetenu, jQ);
