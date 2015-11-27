@@ -2,15 +2,17 @@ var     urlBySegment = {
             segments:   _SEGMENTS,
 
             getUrl: function(mySegment, segAmount, module) {
-                console.log("module");
+                console.log("In urlBySegment.getUrl");
                 if (module == "CTA") {
-                    console.log("CTA OK");
+                    /*
+                    console.log("CTA fix");
                     console.log(JSON.stringify(dataCTA.SEGMENTS[mySegment]));
                     console.log("segAmount : " + segAmount);
+                    */
                     this.segments = dataCTA.SEGMENTS;
                 }
                 var segment = this.segments[mySegment];
-                console.log("segment = " + JSON.stringify(segment));
+                //console.log("segment = " + JSON.stringify(segment));
                 var url = "";
                 var frontURL = "";
                 var montants = [];
